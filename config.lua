@@ -79,4 +79,3 @@ Config.Language = {
         Unable = "Vous ne pouvez pas utiliser l'ascenseur...",
     },
 }
-}
