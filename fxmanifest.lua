@@ -9,6 +9,6 @@ shared_script 'config.lua'
 
 client_script 'client/*.lua'
 
-dependency 'qb-target'
+--dependency 'qb-target'
 
 lua54 'yes'
