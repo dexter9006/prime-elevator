@@ -87,7 +87,7 @@ Config.Elevators = {
 
 Config.PolyZone = false -- This will show the box zones | If set to false it will hide the box zones
 
-Config.WaitTime = 3 * 1000 -- This will set the time for the ProgressBar | 1000 = 1 second
+Config.WaitTime = 3.5 * 1000 -- This will set the time for the ProgressBar | 1000 = 1 second
 
 Config.ElevatorButton = {
 
@@ -103,7 +103,7 @@ Config.ElevatorButton = {
     [6] = { name = "1e Étage #2", location = vector3(330.04, -602.7, 43.5), width = 0.2, length = 0.3, heading = 247.68, minz = 43.48, maxz = 43.78 },
     --[7] = { name = "1e Étage #3", location = vector3(325.65, -603.39, 43.5), width = 0.1, length = 0.3, heading = 160.35, minz = 43.48, maxz = 43.78},
 
-    [8] = { name = "Heli-Pad", location = vector3(338.42, -583.71, 72.9), width = 0.5, length = 2.8, heading = 70.21, minz = 74.16 - 1, maxz = 74.16 + 1.5 },
+    [8] = { name = "Heli-Pad", location = vector3(338.42, -583.71, 72.9), width = 0.5, length = 3.2, heading = 70.21, minz = 74.16 - 1, maxz = 74.16 + 1.5 },
 
 }
 
