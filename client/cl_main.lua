@@ -40,7 +40,7 @@ CreateThread(function()
                     TriggerEvent('prime-elevator:callLift', k)
                   end,
                   icon = "fas fa-chevron-circle-up",
-                  label = "Elevator",
+                  label = "Appeler l'Ascenseur",
                 },
             },
             distance = 2.5
