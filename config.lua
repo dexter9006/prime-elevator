@@ -7,7 +7,7 @@ Config.Elevators = {
     ["PillBoxOne"] = {
         Name = "Ascenseur PillBox", -- a afficher quand on est au toit
         --Group = {"police", "ambulance", "cartel", "lostmc"}, -- Add Jobs / Gangs to be granted access to use the elevator
-        Sound = "LiftSoundBellRing",
+        Sound = "LiftSoundRingBell",
         Floors = {
             [1] = {
                 Label = "Accueil Ouest [1e E]",
@@ -93,11 +93,11 @@ Config.ElevatorButton = {
 
     ------ / Pill Box Hospital
     -- UnRestricted
-    [1] = { name = "RDC #1", location = vector3(344.75, -584.73, 28.9), width = 0.1, length = 0.3, heading = 69.47, minz = 28.9, maxz = 29.3},
-    [2] = { name = "RDC #2", location = vector3(346.10, -581.00, 28.9), width = 0.1, length = 0.3, heading = 69.47, minz = 28.9, maxz = 29.3},
+    [1] = { name = "RDC #1", location = vector3(346.10, -581.00, 28.9), width = 0.1, length = 0.3, heading = 69.47, minz = 28.9, maxz = 29.3},
+    --[2] = { name = "RDC #2", location = vector3(344.75, -584.73, 28.9), width = 0.1, length = 0.3, heading = 69.47, minz = 28.9, maxz = 29.3},
 
-    [3] = { name = "Garage #1", location = vector3(339.70, -586.20, 28.9), width = 0.1, length = 0.3, heading = 246.66, minz = 28.9, maxz = 29.3},
-    [4] = { name = "Garage #2", location = vector3(341.05, -582.5, 28.9), width = 0.1, length = 0.3, heading = 246.66, minz = 28.9, maxz = 29.3},
+    --[3] = { name = "Garage #1", location = vector3(339.70, -586.20, 28.9), width = 0.1, length = 0.3, heading = 246.66, minz = 28.9, maxz = 29.3},
+    --[4] = { name = "Garage #2", location = vector3(341.05, -582.5, 28.9), width = 0.1, length = 0.3, heading = 246.66, minz = 28.9, maxz = 29.3},
     
     --[5] = { name = "1e Étage #1", location = vector3(331.95, -597.2, 43.5), width = 0.1, length = 0.3, heading = 247.68, minz = 43.48, maxz = 43.78},
     [6] = { name = "1e Étage #2", location = vector3(330.04, -602.7, 43.5), width = 0.2, length = 0.3, heading = 247.68, minz = 43.48, maxz = 43.78 },
